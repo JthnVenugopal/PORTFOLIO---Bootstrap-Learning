@@ -154,6 +154,16 @@ img{
   position: relative;
 }
 
+@media(max-width:576px){
+  .link-custom{
+    display: block;
+    padding-top: 2rem;
+  }
+  .link-custom:hover::after{
+    width: 50%;
+  }
+}
+
 .link-custom::after {
   content:"";
   width: 0%;
@@ -183,3 +193,14 @@ img{
   transform: scale(1.1);
 }
 /* /work-card */
+
+.contact-div{
+  width: 30rem;
+  
+}
+
+@media(max-width:576px){
+    .contact-div{
+      width: 25rem;
+    }
+}
